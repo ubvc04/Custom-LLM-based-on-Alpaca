@@ -1,0 +1,134 @@
+# Core ML Framework
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# Transformers and HuggingFace
+transformers>=4.36.0
+tokenizers>=0.15.0
+datasets>=2.14.0
+huggingface-hub>=0.19.0
+accelerate>=0.24.0
+peft>=0.6.0
+trl>=0.7.0
+
+# Efficient Training & Inference
+bitsandbytes>=0.41.0
+flash-attn>=2.3.0
+xformers>=0.0.22
+vllm>=0.2.0
+auto-gptq>=0.5.0
+optimum>=1.14.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+pyarrow>=14.0.0
+polars>=0.19.0
+dask[complete]>=2023.10.0
+
+# Model Architecture Innovations
+einops>=0.7.0
+rotary-embedding-torch>=0.5.0
+triton>=2.1.0
+
+# Training Optimization
+deepspeed>=0.12.0
+fairscale>=0.4.13
+pytorch-lightning>=2.1.0
+wandb>=0.16.0
+tensorboard>=2.15.0
+mlflow>=2.8.0
+
+# Evaluation & Benchmarks
+lm-eval>=0.4.0
+evaluate>=0.4.0
+rouge-score>=0.1.2
+sacrebleu>=2.3.1
+bert-score>=0.3.13
+
+# API & Serving
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+websockets>=12.0
+httpx>=0.25.0
+redis>=5.0.0
+celery>=5.3.0
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+psycopg2-binary>=2.9.7
+asyncpg>=0.29.0
+
+# Authentication & Security
+passlib[bcrypt]>=1.7.4
+python-jose[cryptography]>=3.3.0
+python-multipart>=0.0.6
+
+# Configuration & Environment
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+hydra-core>=1.3.0
+omegaconf>=2.3.0
+
+# Utilities
+tqdm>=4.66.0
+rich>=13.7.0
+click>=8.1.0
+loguru>=0.7.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.17.0
+
+# Development & Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.11.0
+flake8>=6.1.0
+mypy>=1.7.0
+pre-commit>=3.5.0
+
+# Quantization & Optimization
+onnx>=1.15.0
+onnxruntime-gpu>=1.16.0
+tensorrt>=8.6.0
+
+# Constitutional AI & Safety
+anthropic>=0.7.0
+openai>=1.3.0
+
+# Advanced Features
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+langchain>=0.0.350
+gradio>=4.0.0
+streamlit>=1.28.0
+
+# Model Compression
+neural-compressor>=2.4.0
+prune>=0.1.0
+
+# Distributed Training
+horovod>=0.28.0
+mpi4py>=3.1.0
+
+# Memory Optimization
+psutil>=5.9.0
+GPUtil>=1.4.0
+
+# Monitoring
+prometheus-client>=0.19.0
+grafana-client>=3.5.0
+
+# Cloud & Deployment
+docker>=6.1.0
+kubernetes>=28.1.0
+boto3>=1.34.0
+azure-storage-blob>=12.19.0
+google-cloud-storage>=2.10.0
+
+# Experimental & Research
+diffusers>=0.24.0
+timm>=0.9.0
+torchmetrics>=1.2.0
